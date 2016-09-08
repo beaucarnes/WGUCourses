@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="pref_color"
+        android:title="Top Bar Color"
+        android:summary="Pick the color"
+        android:entries="@array/color_entries"
+        android:entryValues="@array/color_values"
+        android:defaultValue="#3F51B5"/>
+
+</PreferenceScreen>

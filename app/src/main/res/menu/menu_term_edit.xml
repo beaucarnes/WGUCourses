@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.beauvine.wgucourses.EditTermActivity">
+    <item
+        android:id="@+id/action_edit"
+        android:orderInCategory="100"
+        android:title="Edit"
+        android:icon="@drawable/ic_action_edit"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_delete"
+        android:orderInCategory="100"
+        android:title="Delete"
+        android:icon="@drawable/ic_action_delete"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_alert_start"
+        android:orderInCategory="100"
+        android:title="Set alert for start date"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_alert_end"
+        android:orderInCategory="100"
+        android:title="Set alert for end date"
+        app:showAsAction="never" />
+
+</menu>
